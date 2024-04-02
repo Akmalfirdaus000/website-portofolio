@@ -1,0 +1,10 @@
+.emblaa {
+    overflow: hidden;
+  }
+  .emblaa__container {
+    display: flex;
+  }
+  .emblaa__slide {
+    flex:0 0 15%;
+    min-width: 4;
+  }
