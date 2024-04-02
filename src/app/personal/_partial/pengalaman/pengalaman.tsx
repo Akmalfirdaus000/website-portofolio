@@ -31,10 +31,12 @@ export function Pengalaman() {
     ]
     return (
         <section className='bg-[#FD6F00] m-10 p-3'>
+        
             <div className='flex-col text-center font-extrabold text-black text-3xl pt-5'>
                 <span className=''>Pengalaman</span>
                 <p className='text-white text-5xl'>......</p>
             </div>
+                <p className='text-center font-light text-lg pt-10 w-1/2  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est molestias doloremque, commodi reiciendis quidem voluptatem delectus praesentium distinctio saepe consequ .</p>
             <div className=' pt-10 m-3'>
                 <ul className=' flex gap-11 justify-center'>
                     {experience.map((item: experienceType,i) => (
