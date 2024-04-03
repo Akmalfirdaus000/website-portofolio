@@ -29,20 +29,23 @@ const Bavbar = () => {
                     <Navbar.Link
                         href="/"
                         active={true}
-                        className='font-bold items-center flex text-sm lg:text-lg'
+                        className='font-bold items-center flex text-sm lg:text-[16px]'
                     >
                         Halaman Utama
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-[16px]'>
                         Tentang Saya
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-[16px]'>
                         Pendidikan
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-[16px]'>
+                        Pengalaman
+                    </Navbar.Link>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-[16px]'>
                         Sertifikat
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-[16px]'>
                         Portofolio
                     </Navbar.Link>
 

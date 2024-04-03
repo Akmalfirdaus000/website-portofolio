@@ -19,13 +19,13 @@ export function Pengalaman() {
         {
             title: 'Inifine Learning',
             image: LogoInfiniteLearning,
-            description: 'Studi Independen | Kampus Mardeka',
+            description: 'Web Developer',
             year: '2023 - 2024'
         },
         {
             title: 'Homeschooling Kak Seto',
             image: LogoSekolahKakSeto,
-            description: 'Magang | Kampus Mardeka',
+            description: 'FrontEnd Developer',
             year: '2024 - 2024'
         }
     ]
