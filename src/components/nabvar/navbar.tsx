@@ -18,7 +18,7 @@ const Bavbar = () => {
                             className=" lg:w-52 w-36 lg:pl-5 pl-1"
                             alt=""
                         />
-                        <span className="text-xl font-semibold dark:text-white ml-16 lg:hidden">
+                        <span className="text-xl font-semibold dark:text-white pl-10 lg:hidden">
                             Akmal <b className='text-[#FD6F00]'>Firdaus</b>
                         </span>
                     </Navbar.Brand>
@@ -29,27 +29,27 @@ const Bavbar = () => {
                     <Navbar.Link
                         href="/"
                         active={true}
-                        className='font-bold items-center flex lg:text-lg'
+                        className='font-bold items-center flex text-sm lg:text-lg'
                     >
                         Halaman Utama
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
                         Tentang Saya
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
                         Pendidikan
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
                         Sertifikat
                     </Navbar.Link>
-                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                    <Navbar.Link href="/" className='font-bold items-center flex text-sm lg:text-lg'>
                         Portofolio
                     </Navbar.Link>
 
                 </Navbar.Collapse>
                     <Navbar.Collapse>
                         <Link href={'/'}>
-                        <Image  src={LogoKontak} alt='kontak' className='lg:w-48 w-32'  />
+                        <Image  src={LogoKontak} alt='kontak' className='lg:w-48 w-28'  />
                         </Link>
                     </Navbar.Collapse>
 
