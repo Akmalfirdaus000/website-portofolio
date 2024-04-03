@@ -37,7 +37,7 @@ export function Pengalaman() {
                 <p className='text-white lg:text-5xl'>......</p>
             </div>
                 <p className='text-center font-light text-lg pt-10 lg:w-1/2  mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est molestias doloremque, commodi reiciendis quidem voluptatem delectus praesentium distinctio saepe consequ .</p>
-            <div className=' pt-10 m-3'>
+            <div className=' lg:pt-10 m-3'>
                 <ul className=' flex-col flex lg:flex-row lg:gap-11 justify-center m-5'>
                     {experience.map((item: experienceType,i) => (
                         <li key={i} className=' bg-slate-100 w-full h-auto text-center p-3 rounded-lg my-3 '>

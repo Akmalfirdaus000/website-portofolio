@@ -18,7 +18,7 @@ const Bavbar = () => {
                             className=" lg:w-52 w-36 lg:pl-5 pl-1"
                             alt=""
                         />
-                        <span className="text-xl font-semibold dark:text-white pl-10 lg:hidden">
+                        <span className="text-xl font-semibold dark:text-white pl-24p md:hidden lg:hidden">
                             Akmal <b className='text-[#FD6F00]'>Firdaus</b>
                         </span>
                     </Navbar.Brand>
