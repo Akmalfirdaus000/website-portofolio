@@ -33,24 +33,24 @@ export function About() {
         }
     ]
     return (
-        <section className='mt-6 px-16 text-black  m-10  bg-[#FD6F00] p-3'>
-            <div className='flex-col text-center font-extrabold text-black text-3xl pt-5'>
+        <section className='mt-6 lg:px-16 text-blac  m-10  bg-[#FD6F00] p-3'>
+            <div className='flex-col text-center text-[24px] font-bold lg:font-extrabold text-black lg:text-3xl pt-5'>
                 <span className=''>Tentang Saya</span>
-                <p className='text-white text-5xl'>......</p>
+                <p className='text-white lg:text-5xl'>......</p>
             </div>
-            <div className=' grid grid-cols-2'>
+            <div className=' grid lg:grid-cols-2'>
                 <div>
-                    <Image src={JamAbout} alt='as' width={700} height={600} />
+                    <Image src={JamAbout} alt='as' className=' lg:w-[400px] w-64 mx-auto lg:pt-10' />
                 </div>
-                <div className='pt-16'>
-                    <p className=' font-semibold text-slate-900'><b className=' text-2xl text-white font-serif'>Lorem </b>, ipsum dolor sit amet consectetur adipisicing elit. Vel rem iure veniam quas quasi quaerat, beatae amet magnam molestias possimus soluta doloribus harum sapiente eius nostrum perspiciatis unde asperiores quia,<i className=' font-bold text-white'> laborum accusantium itaque deleniti debitis! Impedit eaque perferendis optio ea numquam? </i> Repudiandae dolorum tenetur hic dolore facilis sint magnam, assumenda saepe quis vel repellendus iusto sit, consequatur ipsum eos voluptas repellat! Non reiciendis laborum cumque quod aliquid a error fa.</p>
+                <div className='lg:pt-16 pt-3 text-center lg:text-lg text-sm lg:text-left'>
+                    <p className=' font-semibold text-slate-900'><b className=' lg:text-2xl text-xl text-white font-serif'>Lorem </b>, ipsum dolor sit amet consectetur adipisicing elit. Vel rem iure veniam quas quasi quaerat, beatae amet magnam molestias possimus soluta doloribus harum sapiente eius nostrum perspiciatis unde asperiores quia,<i className=' font-bold text-white'> laborum accusantium itaque deleniti debitis! Impedit eaque perferendis optio ea numquam? </i> Repudiandae dolorum tenetur hic dolore facilis sint magnam, assumenda saepe quis vel repellendus iusto sit, consequatur ipsum eos voluptas repellat! Non reiciendis laborum cumque quod aliquid a error fa.</p>
                 </div>
             </div>
-            <div className=' pt-10 m-3'>
-                <ul className=' flex gap-11 justify-center'>
+            <div className=' lg:pt-10 m-16'>
+                <ul className=' flex-col flex lg:flex-row lg:gap-11 justify-center'>
                     {SkillUp.map((item: skillUpType, i) => (
 
-                        <li key={i} className=' bg-slate-100 w-full h-auto text-center p-3 rounded-lg '>
+                        <li key={i} className=' bg-slate-100 w-full h-auto text-center  p-3 my-2 rounded-lg '>
                             <Image src={item.image} alt='' className='w-16 h-16 mx-auto p-3' />
                             <h2 className='font-bold text-lg'>{item.title}</h2>
                             <div className=' font-extralight text-sm'>
