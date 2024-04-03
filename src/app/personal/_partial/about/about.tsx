@@ -33,7 +33,7 @@ export function About() {
         }
     ]
     return (
-        <section className='mt-6 lg:px-16 text-blac  m-10  bg-[#FD6F00] p-3'>
+        <section className='mt-6 lg:px-16 text-blac  lg:m-10 m-5  bg-[#FD6F00] p-3'>
             <div className='flex-col text-center text-[24px] font-bold lg:font-extrabold text-black lg:text-3xl pt-5'>
                 <span className=''>Tentang Saya</span>
                 <p className='text-white lg:text-5xl'>......</p>
