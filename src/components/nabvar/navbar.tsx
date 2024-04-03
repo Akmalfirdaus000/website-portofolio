@@ -15,10 +15,10 @@ const Bavbar = () => {
                     <Navbar.Brand>
                         <Image
                             src={LogoBrand}
-                            className=" lg:w-52 w-24 lg:pl-5"
+                            className=" lg:w-52 w-36 lg:pl-5 pl-3"
                             alt=""
                         />
-                        <span className="text-xl font-semibold dark:text-white ml-16 lg:hidden">
+                        <span className="text-xl font-semibold dark:text-white ml-20 lg:hidden">
                             Akmal <b className='text-[#FD6F00]'>Firdaus</b>
                         </span>
                     </Navbar.Brand>
