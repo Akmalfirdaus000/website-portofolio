@@ -59,8 +59,8 @@ export function Category() {
             key={i}
             src={sponsor.image}
           
-            alt={`sponsor ${i}`}
-            className=" object-cover w-32 h-16 p-3 rounded-xl "
+            alt={`skill ${i}`}
+            className=" object-cover w-32 h-16 p-3 rounded-xl border-2  "
           />
         ))}
       </Marquee>

@@ -3,11 +3,12 @@ import Navbar from "@/components/nabvar/navbar";
 import Image from "next/image";
 import { About, Pendidikan, Pengalaman } from "./personal";
 import { Category } from "@/components/carousel/category";
+import Bavbar from "@/components/nabvar/navbar";
 
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Bavbar/>
       <Hero/>
       <Category/>
       <About/>

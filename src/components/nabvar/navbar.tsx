@@ -1,65 +1,61 @@
+'use client'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { Navbar } from "flowbite-react";
 import { LogoBrand, LogoKontak } from '../../../public/img/personal';
 
-const Navbar = () => {
+const Bavbar = () => {
     return (
-        <header className='py-5 px-16'>
-          
-            <div className='flex items-center justify-between '>
-                <div>
-                    <Link href={'/'}>
-                        <button>
-                            <Image src={LogoBrand} alt="Logo" className='w-52 h-20' />
-                        </button>
-                    </Link>
-                </div>
-                <div className=''>
-                    <ul className='flex font-bold text-sm items-center flex-col md:flex-row'>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Halaman Utama</button>
-                            </Link>
-                        </li>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Tentang Saya</button>
-                            </Link>
-                        </li>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Pedidikan</button>
-                            </Link>
-                        </li>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Pengalaman</button>
-                            </Link>
-                        </li>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Sertifikasi</button>
-                            </Link>
-                        </li>
-                        <li className='pl-7'>
-                            <Link href={''}>
-                                <button>Portofolio</button>
-                            </Link>
-                        </li>
-                        <li className=''>
-                            <Link href={''}>
-                                <button>
-                                    <Image
-                                    src={LogoKontak} alt='Logo Kontak' className='w-52'/>
-                                </button>
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+        <section className=''>
+            <Navbar
+                fluid={true}
+                rounded={true}
+            >
+                    <Navbar.Brand>
+                        <Image
+                            src={LogoBrand}
+                            className=" lg:w-52 w-24 lg:pl-5"
+                            alt=""
+                        />
+                        <span className="text-xl font-semibold dark:text-white ml-16 lg:hidden">
+                            Akmal <b className='text-[#FD6F00]'>Firdaus</b>
+                        </span>
+                    </Navbar.Brand>
+                <Navbar.Toggle />
+
+
+                <Navbar.Collapse>
+                    <Navbar.Link
+                        href="/"
+                        active={true}
+                        className='font-bold items-center flex lg:text-lg'
+                    >
+                        Halaman Utama
+                    </Navbar.Link>
+                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                        Tentang Saya
+                    </Navbar.Link>
+                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                        Pendidikan
+                    </Navbar.Link>
+                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                        Sertifikat
+                    </Navbar.Link>
+                    <Navbar.Link href="/" className='font-bold items-center flex lg:text-lg'>
+                        Portofolio
+                    </Navbar.Link>
+
+                </Navbar.Collapse>
+                    <Navbar.Collapse>
+                        <Link href={'/'}>
+                        <Image  src={LogoKontak} alt='kontak' className='lg:w-48 w-32'  />
+                        </Link>
+                    </Navbar.Collapse>
+
+            </Navbar>
+        </section>
     );
 };
 
-export default Navbar;
+export default Bavbar;

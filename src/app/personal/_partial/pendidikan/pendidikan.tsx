@@ -19,7 +19,7 @@ export function Pendidikan() {
         />
         <div className='text-center text- pt-8'>
           <span className=' font-extrabold text-4xl'>Universitas Metamedia</span>
-          <p className='font-extralight text-white'>September 2021-2025 <br />
+          <p className='font-extralight text-white py-3'>September 2021-2025 <br />
             Sistem Informasi</p>
         </div>
       </div>
