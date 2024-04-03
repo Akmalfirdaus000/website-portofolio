@@ -7,7 +7,7 @@ import { LogoBrand, LogoKontak } from '../../../public/img/personal';
 
 const Bavbar = () => {
     return (
-        <section className=''>
+        <section>
             <Navbar
                 fluid={true}
                 rounded={true}
@@ -15,14 +15,14 @@ const Bavbar = () => {
                     <Navbar.Brand>
                         <Image
                             src={LogoBrand}
-                            className=" lg:w-52 w-36 lg:pl-5 pl-3"
+                            className=" lg:w-52 w-36 lg:pl-5 pl-1"
                             alt=""
                         />
-                        <span className="text-xl font-semibold dark:text-white ml-20 lg:hidden">
+                        <span className="text-xl font-semibold dark:text-white ml-16 lg:hidden">
                             Akmal <b className='text-[#FD6F00]'>Firdaus</b>
                         </span>
                     </Navbar.Brand>
-                <Navbar.Toggle />
+                <Navbar.Toggle className='' />
 
 
                 <Navbar.Collapse>
