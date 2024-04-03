@@ -52,15 +52,15 @@ export function Category() {
   ]
 
   return (  
-    <section className='flex my-16 border-2 p-3 bg-[#FD6F00]'>
+    <section className='flex lg:my-16 my-7 border-2 p-2 bg-[#FD6F00]'>
      <Marquee className="">
-        {imageItema.map((sponsor,i) => (
+        {imageItema.map((Sikil,i) => (
           <Image
             key={i}
-            src={sponsor.image}
+            src={Sikil.image}
           
             alt={`skill ${i}`}
-            className=" object-cover w-32 h-16 p-3 rounded-xl border-2  "
+            className=" object-cover lg:w-32 lg:h-16 w-16 h-10 p-2 rounded-xl lg:border-2 border lg:p-3  "
           />
         ))}
       </Marquee>
