@@ -5,4 +5,6 @@ import FotoPribadi from './akmal.png'
 import Iconaja from './icon.png'
 import LogoKampus from './stmik.png'
 import JamAbout from './jam.png'
-export {LogoBrand, LogoKontak, TittleIm, FotoPribadi, Iconaja, LogoKampus,JamAbout}
+import Poster1 from './poster1.png'
+import Poster2 from './poster2.png'
+export {LogoBrand, LogoKontak, TittleIm, FotoPribadi, Iconaja, LogoKampus,JamAbout, Poster1,Poster2}
